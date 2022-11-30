@@ -1,0 +1,123 @@
+header {
+    background-color: black;
+    width: 100%;
+    height: 160px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Logo-de-la-serie-sons-of-anarchy.jpg/800px-Logo-de-la-serie-sons-of-anarchy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+html {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+article {
+   list-style-type: none;
+   border: solid white;
+   border-width: thick;
+   padding: 10px 10px 10px;
+}
+.détails {
+  float:right;
+}
+nav {
+    font-size: 18px;
+    display: flex;              
+    padding: 0;                  
+    background-color: black;
+    color: white;  
+}
+.menu {
+  display: flex;                /* Transformation en flexbox */
+  padding:0;                    /* Suppression des marges internes */
+  background-color: #ccc;       /* Ajout de la couleur d'arrière-plan */
+  justify-content: center;/* Alignements des liens dans le menu */
+  align-items: center;
+}
+.menu li {
+  list-style-type: none ;       /* Suppression des puces */
+}
+.menu a {
+  display:block;                /* Transformation en block */
+  min-width: 120px;             /* Largeur minimale des liens */
+}
+.menu a {
+  display:block;                /* Transformation en block */
+  min-width: 120px;             /* Largeur minimale des liens */   
+  
+  margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+  padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+  text-align: center;           /* Centrage du texte */   
+  background-color: white;    /* Couleur d'arrière-plan */
+  color: black;                  /* Couleur du texte */
+  text-decoration: none;        /* Suppression du soulignement */
+  border: 1px solid #fff;       /* Ajout d'une bordure */
+  border-radius: 4px;           /* Arrondis des bordures */
+}
+.menu {
+  display: flex;              /* Transformation en flexbox */
+  padding:0;                  /* Suppression des marges internes */
+  background-color: black;     /* Ajout de la couleur d'arrière-plan */
+  justify-content: center     /* Alignements des liens dans le menu */
+}
+.menu a:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+.logoSOA {
+  width: 280px;
+  height: 300px;
+}
+.findepage {
+  display: inline-block;
+	margin-right: 20px;
+  font-size: 18px;
+  list-style: none;
+}
+.footer {
+  background-color: black;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 200px;
+  border: solid white;
+}
+.parentDesEnfants {
+  background-color: white(149, 208, 248);
+  height: 200px;
+  display: flex;
+}
+
+/* La largeur en pourcentage ne fonctionne QUE sur des balise de type BLOCK */
+.parentDesEnfants div {
+  width: 25%;
+  background-color: black;
+  margin: 1px;
+} 
+#bikers {
+  width: 370px;
+  height: 170px;
+}
+#fanart {
+  width: 500px;
+  height: 300px;
+}
+.samcro {
+  float: right;
+}
+#global {
+  overflow:auto;
+}
+#gauche {
+  float:left;
+  width:60%;
+}
+#droite {
+  overflow:auto;
+}
